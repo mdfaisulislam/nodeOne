@@ -2,8 +2,15 @@ User {
     "name": "Ali Khan",
     "id": "2022210",
 }
-
+One if need
 {
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     Get-ExecutionPolicy -List
+}
+Start - one
+{
+    teminal {
+        npm init -y ⬅️
+        npm i express ⬅️
+    }
 }
