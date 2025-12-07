@@ -2,3 +2,8 @@ User {
     "name": "Ali Khan",
     "id": "2022210",
 }
+
+{
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Get-ExecutionPolicy -List
+}
