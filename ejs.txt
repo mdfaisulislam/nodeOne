@@ -1,0 +1,14 @@
+ExpressJS Response Method {
+    res.send() -> Text, HTML, Object, Array, Buffers
+    res.json() -> JSON (JavaScript Object Notation) // important
+    res.jsonp() -> JSONP (JSON with Padding)
+    res.redirect() -> Show another page
+    res.render() -> Open HTML file using a template engine
+    res.download() -> pdf, img, music, video, excel etc..
+    res.sendFile() ->
+    res.end() ->
+    res.sendStatus() ->
+    res.headersSent() ->
+    res.set() ->
+    res.get() ->
+}

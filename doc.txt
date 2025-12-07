@@ -12,6 +12,8 @@ Start - one
     teminal {
         npm init -y ⬅️
         npm i express ⬅️
-        npm i nodemon ⬅️
+        npm i nodemon ⬅️ // auto server auto rs
+        // template engine
+        npm install ejs ⬅️
     }
 }
