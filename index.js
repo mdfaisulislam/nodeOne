@@ -1,22 +1,10 @@
-// http.createServer(
-//     function(res,req) {
-//         res.writeHead(200, {"Content-type":"text/html"});
-//         res.end("Hello World!");
-//     }
-// ).listen(8080);
-// const { createServer } = require('node:http');
+const express = require('express')
+const app = express()
 
-// const hostname = '127.0.0.1';
-// const port = 3000;
+app.listen(3000, ()=> {
+    console.log(`Successfully Connected.`);
+});
 
-// const server = createServer((req, res) => {
-//   res.statusCode = 200;
-//   res.setHeader('Content-Type', 'text/plain');
-//   res.end('Hello World');
-// });
-
-// server.listen(port, hostname, () => {
-//   console.log(`Server running at http://${hostname}:${port}/`);
-// });
-
-console.log('Welcome');
+app.get('/', (req, res) => {
+    res.send("<h1>Hello</h1>");
+});
