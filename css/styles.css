@@ -1,0 +1,264 @@
+/* import */
+@import url("root.css");
+
+body {
+    user-select: none;
+    background-color: #f4f4f4;
+}
+/* nav */
+/* logo */
+.navbar {
+    background-color: #ffffff;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.logo:hover {
+    color: var(--primary-color);
+}
+/* middle-menu */
+.middle-menu {
+    display: flex;
+    flex-direction: row;
+}
+.active i, .active p {
+    color: var(--primary-color) !important;
+}
+/* inner-menu */
+.inner-menu {
+    cursor: pointer;
+}
+.inner-menu i {
+    font-size: 26px;
+    color: var(--text-shadow-color);
+}
+.inner-menu p {
+    font-size: 14px;
+    font-weight: 600 !important;
+    color: var(--text-shadow-color);
+    text-transform: capitalize !important;
+}
+.inner-menu:hover i, .inner-menu:hover p {
+    color: var(--primary-color);
+}
+/* right menu */
+.right-menu {
+    flex-direction: row;
+}
+.btn:active {
+    border-color: transparent !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+/* media-query */
+/* Small device and portrait 320px and up */
+@media (min-width: 320px) {
+    /* body */
+    .bg-gray {
+        background-color: var(--body-bg);
+    }
+    /* navbar */
+    .nav {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 0;
+    }
+
+    .inner-menu i {
+        font-size: 16px;
+    }
+
+    .inner-menu p {
+        font-size: 14px;
+    }
+
+    .right-menu li a {
+        padding-bottom: 0px !important;
+    }
+
+    .menu-bottom {
+        padding: 0px 25px;
+    }
+
+    .menu-bottom .menu-middle {
+        flex-grow: 1 !important;
+    }
+}
+
+/* Small device and portrait 390px and up */
+@media (min-width: 390px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* navbar */
+    .logo {
+        font-size: 25px;
+    }
+
+    .inner-menu i {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* XXX-Large devices (larger desktops, 1600px and up) */
+@media (min-width: 1600px) {
+    .container {
+        width: 1500px !important;
+        max-width: 1500px !important;
+    }
+
+    .col-3xl-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+    }
+
+    .col-3xl-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-3xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-3xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .col-3xl-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .col-3xl-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-3xl-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .col-3xl-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-3xl-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .col-3xl-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+
+    .col-3xl-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+    }
+
+    .col-3xl-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+
+/* XXXX-Large devices (larger desktops, 1880px and up) */
+@media (min-width: 1880px) {
+
+    /* container */
+    .container {
+        width: 1800px !important;
+        max-width: 1800px !important;
+    }
+
+    .col-4xl-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+    }
+
+    .col-4xl-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-4xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-4xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .col-4xl-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .col-4xl-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-4xl-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .col-4xl-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-4xl-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .col-4xl-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+
+    .col-4xl-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+    }
+
+    .col-4xl-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
