@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mdfaisulislam/nodeOne/issues"
   },
-  "homepage": "https://github.com/mdfaisulislam/nodeOne#readme"
+  "homepage": "https://github.com/mdfaisulislam/nodeOne#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
